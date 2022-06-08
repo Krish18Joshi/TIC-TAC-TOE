@@ -103,7 +103,7 @@ const TicTacToe = () => {
         {winner && (
             <>
                 <h3 className='winner'>{winner} is the winner!</h3>
-                <button className='btn' onClick={()=>handleRestart()}>Start Again</button>
+                <button className='btn' id='btn' onClick={()=>handleRestart()} >Start Again</button>
             </>
         )}
     </div>

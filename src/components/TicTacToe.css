@@ -1,7 +1,18 @@
 table td{
-    border: solid rgb(27, 232, 184);
-    width: 100px;
-    height:100px;
+   
+    border: 0.6rem solid rgb(255, 0, 0);
+    width: 150px;
+   
+    height:150px;
+}
+table {
+
+     margin-top: 2rem;
+}
+td{
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
 }
 .container{
     display: flex;
@@ -11,24 +22,36 @@ table td{
     align-items: center;
     margin: auto;
 }
-.btn{
+#btn{
     border: none;
-    border-radius: 5px;
-    color: white;
-    background-color: rgb(26, 221, 110);
+    border-radius: 15px;
+    
+    background-color: rgb(2, 255, 112);
     font-weight: bold;
-    width: 100px;
-    height: 30px;
+    font-size: 2rem;
+   margin-bottom: 1rem;
 }
 .winner{
-    color: rgb(87, 87, 212);
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: rgb(38, 110, 187);
 }
 .line{
     line-height: 10px;
 }
 .line>h3{
-    color: rgb(231, 48, 235);
+    font-size: 3rem;
+    font-weight: 900;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: rgb(10, 128, 255);
 }
+
 .line>h2{
-    color: rgb(33, 212, 224);
+ 
+    font-weight: 900;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 2.5rem;
+    color: rgb(64, 0, 255);
 }
