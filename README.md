@@ -1,4 +1,7 @@
 # TIC - TAC - TOE 
+
+LINK => https://krish18joshi.github.io/Tic-Tac-Toe/
+
 This game is made  by  using REACT.JS .
 
 The most ancient board games still played today is tic tac toe. This is probably because it's so simple that you don't even need a board to play! But even with all its simplicity, the history of tic tac toe is more rich and surprising than you'd think.
